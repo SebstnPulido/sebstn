@@ -1,0 +1,42 @@
+.foro1 {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.foro2-titulo {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.foro2-foro {
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+  padding: 0.5em 0.7em;
+  margin: 10px;
+}
+
+.foro2-lista {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Media QUERY*/
+
+@media (min-width: 950px) {
+  .foro2-titulo {
+    font-size: 60px;
+  }
+  
+  .foro2-foro {
+    font-size: 30px;
+    margin: 20px;
+  }
+}
